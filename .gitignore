@@ -1,15 +1,19 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
+backend/node_modules
+backend/.pnp
 /node_modules
 /.pnp
 .pnp.js
 *.dm
 
 # testing
+backend/coverage
 /coverage
 
 # production
+backend/build
 /build
 
 # misc
@@ -22,3 +26,4 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+backend/node_modules
