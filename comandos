@@ -5,6 +5,8 @@ node src/index.js	// run
 yarn add nodemon -D // add lib live server
 yarn nodemon src/index.js	// run
 
+yarn add uuidv4 // add lib universally unique identifier v4
+
 // GET - BUSCAR
 // POST - CRIAR
 // PUT/PATCH - ALTERAR
@@ -14,4 +16,4 @@ yarn nodemon src/index.js	// run
 // Route Params - Identificar recursos - (Atualizar/Deletar)
 // Request Body - Conteúdo na hora de criar ou editar um recurso (JSON)
 
-yarn add uuidv4 // add lib universally unique identifier v4
+// Middlewares - Funções - function nomeMiddleware(request, response, next) { ... }
