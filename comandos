@@ -2,7 +2,7 @@ yarn init -y		// add package.json
 yarn add express	// add lib http
 node src/index.js	// run
 
-yarn add nodemon -D			// add lib live server
+yarn add nodemon -D // add lib live server
 yarn nodemon src/index.js	// run
 
 // GET - BUSCAR
@@ -13,3 +13,5 @@ yarn nodemon src/index.js	// run
 // Query Params - Filtros e paginação - /projects?title=React&owner=Denis
 // Route Params - Identificar recursos - (Atualizar/Deletar)
 // Request Body - Conteúdo na hora de criar ou editar um recurso (JSON)
+
+yarn add uuidv4 // add lib universally unique identifier v4
