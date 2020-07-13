@@ -1,3 +1,4 @@
+##backend
 yarn init -y		// add package.json
 yarn add express	// add lib http
 node src/index.js	// run
@@ -17,3 +18,16 @@ yarn add uuidv4 // add lib universally unique identifier v4
 // Request Body - Conteúdo na hora de criar ou editar um recurso (JSON)
 
 // Middlewares - Funções - function nomeMiddleware(request, response, next) { ... }
+
+## frontend
+yarn init -y		// add package.json
+yarn add react react-dom // add libs react
+
+yarn add @babel/core @babel/preset-env @babel/preset-react webpack webpack-cli
+yarn add @babel/cli
+
+yarn babel .\src\index.js --out-file public/bundle.js
+
+// Babel: Converter código do React para um código que o browser entenda
+// Webpack: Converter o código de uma maneira diferente para cada tipo de arquivo (.js, .css, .png)
+//// Loaders: babel-loader, css-loader, image-loader, file-loader 
