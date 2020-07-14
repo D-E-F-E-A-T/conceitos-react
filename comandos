@@ -26,7 +26,15 @@ yarn add react react-dom // add libs react
 yarn add @babel/core @babel/preset-env @babel/preset-react webpack webpack-cli
 yarn add @babel/cli
 
-yarn babel .\src\index.js --out-file public/bundle.js
+yarn babel .\src\index.js --out-file public/bundle.js // converter js para bundle
+
+yarn add babel-loader // add lib to load babel in webpack
+
+yarn webpack --mode development // converter js e imports para bundle
+
+yarn add webpack-dev-server -D
+
+yarn webpack-dev-server --mode development
 
 // Babel: Converter código do React para um código que o browser entenda
 // Webpack: Converter o código de uma maneira diferente para cada tipo de arquivo (.js, .css, .png)
